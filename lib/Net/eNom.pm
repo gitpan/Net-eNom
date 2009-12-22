@@ -19,7 +19,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -58,7 +58,8 @@ sub new {
 sub _uri {
     my ($self, $command, %args) = @_;
     my $uri = URI->new($self->{test} ? TEST_URI : LIVE_URI);
-    if (my $domain = delete $args{Domain}) {
+    if ($command ne "CertGetApproverEmail" and 
+        my $domain = delete $args{Domain}) {
         $domain =~ /^(.*)\.(.*)$/;
         $args{TLD} = $2; $args{SLD} = $1;
     }

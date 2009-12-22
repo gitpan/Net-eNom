@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Net-eNom
-version:             0.01
+version:             0.02
 abstract:            Interact with eNom.com reseller API
 license:             perl
 author:              
