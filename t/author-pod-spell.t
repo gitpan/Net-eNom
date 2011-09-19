@@ -33,6 +33,8 @@ RRPText
 SLD
 TLD
 UKFSN
+html
+xml
 Simon
 Cozens
 Richard

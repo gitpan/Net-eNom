@@ -1,11 +1,12 @@
 ---
 abstract: "Interact with eNom, Inc.'s reseller API"
 author:
-  - 'Simon Cozens <simon@cpan.org>'
-  - 'Richard Simões <rsimoes@cpan.org>'
+  - 'Simon Cozens <simon at simon-cozens.org>'
+  - 'Richard Simões <rsimoes at cpan.org>'
 build_requires:
   File::Find: 0
   File::Temp: 0
+  HTML::Parser: 0
   Moose: 0
   Test::More: 0
   Test::Most: 0.22
@@ -22,14 +23,13 @@ name: Net-eNom
 no_index:
   namespace:
     - Net::eNom::Role::Commands
-recommends:
-  Term::ReadLine::Gnu: 0
 requires:
   Any::Moose: 0
   Carp: 0
   Data::Validate::Domain: 0
   English: 0
   LWP::Simple: 0
+  List::MoreUtils: 0
   ParseUtil::Domain: 0
   URI: 0
   XML::Simple: 0
@@ -39,4 +39,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/rsimoes/Net-eNom.git
-version: v0.3.0
+version: v0.3.1

@@ -10,10 +10,11 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Interact with eNom, Inc.'s reseller API",
-  "AUTHOR" => "Simon Cozens <simon\@cpan.org>, Richard Sim\303\265es <rsimoes\@cpan.org>",
+  "AUTHOR" => "Simon Cozens <simon at simon-cozens.org>, Richard Sim\303\265es <rsimoes at cpan.org>",
   "BUILD_REQUIRES" => {
     "File::Find" => 0,
     "File::Temp" => 0,
+    "HTML::Parser" => 0,
     "Moose" => 0,
     "Test::More" => 0,
     "Test::Most" => "0.22",
@@ -32,6 +33,7 @@ my %WriteMakefileArgs = (
     "Data::Validate::Domain" => 0,
     "English" => 0,
     "LWP::Simple" => 0,
+    "List::MoreUtils" => 0,
     "ParseUtil::Domain" => 0,
     "URI" => 0,
     "XML::Simple" => 0,
@@ -39,7 +41,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "v0.3.0",
+  "VERSION" => "v0.3.1",
   "test" => {
     "TESTS" => "t/*.t"
   }
