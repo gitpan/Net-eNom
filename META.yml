@@ -41,4 +41,4 @@ resources:
   bugtracker: https://github.com/rsimoes/net-enom/issues
   homepage: http://search.cpan.org/dist/Net-eNom
   repository: git://github.com/rsimoes/net-enom.git
-version: v0.3.2
+version: 0.032

@@ -12,7 +12,7 @@ use List::MoreUtils 'any';
 use ParseUtil::Domain 'parse_domain';
 use URI;
 
-our $VERSION = 'v0.3.2'; # VERSION
+our $VERSION = '0.032'; # VERSION
 
 with 'Net::eNom::Role::Commands';
 
