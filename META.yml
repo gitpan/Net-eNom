@@ -14,7 +14,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.300001, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -38,5 +38,7 @@ requires:
   utf8: 0
   warnings: 0
 resources:
-  repository: git://github.com/rsimoes/Net-eNom.git
-version: v0.3.1
+  bugtracker: https://github.com/rsimoes/net-enom/issues
+  homepage: http://search.cpan.org/dist/Net-eNom
+  repository: git://github.com/rsimoes/net-enom.git
+version: v0.3.2

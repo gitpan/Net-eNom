@@ -8,7 +8,7 @@ use English '-no_match_vars';
 use LWP::Simple 'get';
 use XML::Simple 'XMLin';
 
-our $VERSION = 'v0.3.1'; # VERSION
+our $VERSION = 'v0.3.2'; # VERSION
 
 requires '_make_query_string';
 
