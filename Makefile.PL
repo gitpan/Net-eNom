@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.008005;
+use 5.008;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -18,6 +18,7 @@ my %WriteMakefileArgs = (
     "Moose" => 0,
     "Test::More" => 0,
     "Test::Most" => "0.22",
+    "ok" => 0,
     "perl" => "5.006"
   },
   "CONFIGURE_REQUIRES" => {
@@ -34,14 +35,14 @@ my %WriteMakefileArgs = (
     "English" => 0,
     "LWP::Simple" => 0,
     "List::MoreUtils" => 0,
-    "ParseUtil::Domain" => 0,
+    "ParseUtil::Domain" => "2.07",
     "URI" => 0,
     "XML::Simple" => 0,
     "strict" => 0,
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.032",
+  "VERSION" => "v1.0.0",
   "test" => {
     "TESTS" => "t/*.t"
   }

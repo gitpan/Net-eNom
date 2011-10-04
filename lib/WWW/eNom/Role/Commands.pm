@@ -1,4 +1,4 @@
-package Net::eNom::Role::Commands;
+package WWW::eNom::Role::Commands;
 
 use Any::Moose 'Role';
 use strict;
@@ -8,7 +8,7 @@ use English '-no_match_vars';
 use LWP::Simple 'get';
 use XML::Simple 'XMLin';
 
-our $VERSION = '0.032'; # VERSION
+our $VERSION = 'v1.0.0'; # VERSION
 
 requires '_make_query_string';
 

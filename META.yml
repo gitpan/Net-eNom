@@ -10,11 +10,12 @@ build_requires:
   Moose: 0
   Test::More: 0
   Test::Most: 0.22
+  ok: 0
   perl: 5.006
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300001, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,7 +23,8 @@ meta-spec:
 name: Net-eNom
 no_index:
   namespace:
-    - Net::eNom::Role::Commands
+    - Net::eNom
+    - WWW::eNom::Role::Commands
 requires:
   Any::Moose: 0
   Carp: 0
@@ -30,10 +32,10 @@ requires:
   English: 0
   LWP::Simple: 0
   List::MoreUtils: 0
-  ParseUtil::Domain: 0
+  ParseUtil::Domain: 2.07
   URI: 0
   XML::Simple: 0
-  perl: v5.8.5
+  perl: 5.008
   strict: 0
   utf8: 0
   warnings: 0
@@ -41,4 +43,4 @@ resources:
   bugtracker: https://github.com/rsimoes/net-enom/issues
   homepage: http://search.cpan.org/dist/Net-eNom
   repository: git://github.com/rsimoes/net-enom.git
-version: 0.032
+version: v1.0.0
