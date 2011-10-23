@@ -35,6 +35,7 @@ my %WriteMakefileArgs = (
     "English" => 0,
     "LWP::Simple" => 0,
     "List::MoreUtils" => 0,
+    "Mouse" => "0.97",
     "ParseUtil::Domain" => "2.07",
     "URI" => 0,
     "XML::Simple" => 0,
@@ -42,7 +43,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "v1.0.0",
+  "VERSION" => "v1.0.1",
   "test" => {
     "TESTS" => "t/*.t"
   }

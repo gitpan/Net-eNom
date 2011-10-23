@@ -32,6 +32,7 @@ requires:
   English: 0
   LWP::Simple: 0
   List::MoreUtils: 0
+  Mouse: 0.97
   ParseUtil::Domain: 2.07
   URI: 0
   XML::Simple: 0
@@ -43,4 +44,4 @@ resources:
   bugtracker: https://github.com/rsimoes/net-enom/issues
   homepage: http://search.cpan.org/dist/Net-eNom
   repository: git://github.com/rsimoes/net-enom.git
-version: v1.0.0
+version: v1.0.1

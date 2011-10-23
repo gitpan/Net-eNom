@@ -34,6 +34,7 @@
             "English" : 0,
             "LWP::Simple" : 0,
             "List::MoreUtils" : 0,
+            "Mouse" : "0.97",
             "ParseUtil::Domain" : "2.07",
             "URI" : 0,
             "XML::Simple" : 0,
@@ -68,6 +69,6 @@
          "web" : "https://github.com/rsimoes/net-enom"
       }
    },
-   "version" : "v1.0.0"
+   "version" : "v1.0.1"
 }
 

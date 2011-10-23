@@ -12,7 +12,7 @@ use List::MoreUtils 'any';
 use ParseUtil::Domain 'parse_domain';
 use URI;
 
-our $VERSION = 'v1.0.0'; # VERSION
+our $VERSION = 'v1.0.1'; # VERSION
 # ABSTRACT: Interact with eNom, Inc.'s reseller API
 
 with 'WWW::eNom::Role::Commands';
